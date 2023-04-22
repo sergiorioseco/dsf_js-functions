@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>JS Paint</title>
-</head>
-<body>
+  </head>
+  <body>
     <p class="instructions">Selecciona un color con WASD y pinta</p>
     <div class="color-selector">
-        <div class="color-box cb1">
-            <p>W</p>
-        </div>
-        <div class="color-box cb2">
-            <p>A</p>
-        </div>
-        <div class="color-box cb3">
-            <p>S</p>
-        </div>
-        <div class="color-box cb4">
-            <p>D</p>
-        </div>
+      <div class="color-box cb1">
+        <p>W</p>
+      </div>
+      <div class="color-box cb2">
+        <p>A</p>
+      </div>
+      <div class="color-box cb3">
+        <p>S</p>
+      </div>
+      <div class="color-box cb4">
+        <p>D</p>
+      </div>
     </div>
     <div class="selected-color" id="selectedColor"></div>
     <div class="box-section">
-        <div id="box1" class="box" onclick="paint('box1')"></div>
-        <div id="box2" class="box" onclick="paint('box2')"></div>
-        <div id="box3" class="box" onclick="paint('box3')"></div>
-        <div id="box4" class="box" onclick="paint('box4')"></div>
+      <div id="box1" class="box" onclick="paint('box1')"></div>
+      <div id="box2" class="box" onclick="paint('box2')"></div>
+      <div id="box3" class="box" onclick="paint('box3')"></div>
+      <div id="box4" class="box" onclick="paint('box4')"></div>
     </div>
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
